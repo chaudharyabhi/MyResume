@@ -20,8 +20,8 @@ aside{
     border: 1px solid grey;
     padding: 20px;
     grid-column: 1/6;
-    grid-row: 1/7;
-        box-shadow: 4px -4px 8px 2px rgb(130, 130, 130);
+    grid-row: 1/3;
+    box-shadow: 4px -4px 8px 2px rgb(130, 130, 130);
 }
 
 .name{
@@ -80,8 +80,8 @@ a{
     border: 1px solid grey;
     padding: 30px;
     grid-column: 6/17;
-    grid-row: 1/6;
     box-shadow: 4px -4px 8px 2px rgb(130, 130, 130);
+    padding-bottom: 50px;
 }
 
 main .heading, main i{
@@ -91,14 +91,9 @@ main .heading, main i{
 
 /* Project - Gourmet Catering */
 
-.project1{
-  position: relative;
-}
-
-.project1 .heading{
+.project1 .heading {
     font-size: 22px;
     margin-bottom: 0;
-    /* color: #9e9e9e; */
 }
 
 .line{
@@ -106,32 +101,86 @@ main .heading, main i{
     background-color: rgb(130, 130, 130);
 }
 
+.container {
+    margin: 20px;
+    display: flex;
+    position: relative;
+}
 
-.project1 img{
-    position: absolute;
-    width: 60%;
-    right: 0;
-    top: 40px;
-    height: 220px;
+.ul {
+    min-width: 40%;
+    align-items: center;
+    margin: auto;
+}
+
+ul {
+    color: rgb(99, 99, 99);
+    padding: 10px;
+}
+
+.imagelink {
+    overflow: hidden;
+    box-sizing: border-box;
 
 }
 
+.imagelink img {
+    width: 100%;
+    margin: 0;
+    height: 100%;
+}
 
-
-
-
-
-
-
-
-
-
+/* Education section starts from here */
 
 #education {
     background-color: white;
     border: 1px solid grey;
-    padding: 20px;
+    padding: 30px;
     grid-column: 6/17;
     box-shadow: 4px -4px 8px 2px rgb(107, 107, 107);
 }
 
+section .heading{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.education{
+    font-size: 25px;
+    color: rgb(112, 112, 112);
+}
+
+.date{
+    color: #009688;
+    font-size: 20px;
+}
+
+.description{
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+/* Footer starts from here */
+
+footer{
+    background-color: #009688;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer p{
+    padding: 2px;
+}
+
+footer i{
+    color: white;
+}
+
+footer i:hover{
+ opacity: 0.5;
+}
+
+footer span{
+    text-decoration: underline;
+}
